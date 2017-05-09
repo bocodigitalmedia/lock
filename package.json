@@ -1,6 +1,6 @@
 {
   "name": "auth0-lock",
-  "version": "9.2.7",
+  "version": "9.2.8",
   "description": "Auth0 Lock",
   "main": "./index.js",
   "keywords": [
@@ -28,7 +28,7 @@
   "author": "Auth0 <support@auth0.com> (http://auth0.com)",
   "license": "MIT",
   "dependencies": {
-    "auth0-js": "git+https://github.com/bocodigitalmedia/auth0.js.git#v6.8.6",
+    "auth0-js": "git+https://github.com/bocodigitalmedia/auth0.js.git#v6.8.7",
     "bean": "~1.0.4",
     "brfs": "^1.4.0",
     "blueimp-md5": "^1.1.0",
