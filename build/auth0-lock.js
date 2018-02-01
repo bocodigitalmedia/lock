@@ -4040,7 +4040,7 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div id="a0-lock" class="a0-lock', escape((1,  (locals && locals.options.theme) ? ' a0-theme-' + locals.options.theme : '')), '" dir="auto">\n  <div class="a0-signin">\n    <div class="a0-popup ', escape((3,  (locals && locals.cordova) ? 'a0-cordova' : '' )), ' ', escape((3,  (locals && locals.ios) ? 'a0-ios' : '' )), '">\n      <div class="a0-overlay">\n        <div class="', escape((5,  locals && locals.options.container ? 'a0-nocentrix' : 'a0-centrix' )), '">\n          ' + (function(){var buf = [];
  buf.push('<div id="a0-onestep" class="a0-panel a0-onestep a0-free-subscription">\n    ' + (function(){var buf = [];
  buf.push('<div class="a0-header a0-top-header ', escape((1,  locals.embedded ? 'a0-hide' : '')), '">\n\n    <div class="a0-bg-gradient ', escape((3,  cssBlurSupport ? 'a0-blur-support' : 'a0-blur-no-support' )), '">\n      <div class="a0-avatar a0-hide">\n        <img src="">\n      </div>\n\n      <div class="a0-image">\n        <img class="a0-avatar-guest" src="', escape((9,  options.headerIcon )), '">\n      </div>\n\n      <div class="a0-bg-solid-color" style="background-color: ', escape((12,  options.primaryColor )), '"></div>\n    </div>\n\n    <div class="a0-icon-container">\n      <div class="a0-avatar a0-hide">\n        <img src="">\n      </div>\n\n      <div class="a0-image">\n        <img class="a0-avatar-guest" src="', escape((21,  options.headerIcon )), '">\n      </div>\n\n      <div class="a0-blank-space"></div>\n\n      <h1 title="', escape((26,  options.i18n.t('signin:title') )), '">', escape((26,  options.i18n.t('signin:title') )), '</h1>\n    </div>\n\n    <h2 class="a0-error a0-hide">&nbsp;</h2>\n    <h2 class="a0-success a0-hide">&nbsp;</h2>\n\n    <!-- if standalone, you shouldn\'t be able to close the widget -->\n    <a class="a0-close ', escape((33,  options.closable ? '' : 'a0-hide' )), '" href="#">\n      <svg enable-background="new 0 0 128 128" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polygon fill="#373737" points="123.5429688,11.59375 116.4765625,4.5185547 64.0019531,56.9306641 11.5595703,4.4882813     4.4882813,11.5595703 56.9272461,63.9970703 4.4570313,116.4052734 11.5244141,123.4814453 63.9985352,71.0683594     116.4423828,123.5117188 123.5126953,116.4414063 71.0732422,64.0019531   "></polygon></g></svg>\n    </a>\n</div>\n');
@@ -4048,7 +4048,7 @@ return buf.join('');})() + '\n\n    <div class="a0-mode-container"></div>\n\n   
  buf.push('<div class=\'a0-footer\'>\n    <a href="http://auth0.com/?utm_source=lock&utm_campaign=badge&utm_medium=widget" target="_new" class="a0-logo">\n        <i class="a0-icon-badge"></i>\n    </a>\n</div>\n');
 return buf.join('');})() + '\n</div>\n');
 return buf.join('');})() + '\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/html/zocial-button.ejs":[function(require,module,exports){
@@ -4063,9 +4063,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('');1; var icon_class = !use_big_buttons ? 'a0-icon' : 'a0-block' ; buf.push('\n<div tabindex="0"\n		data-strategy="', escape((3,  name )), '"\n		title="', escape((4,  title )), '"\n		class="a0-zocial ', escape((5,  icon_class )), ' a0-', escape((5,  css )), ' ', escape((5,  locals.imageicon ? 'a0-image-icon' : '' )), '" dir="ltr">\n\n\n	<span>', escape((8,  title )), '</span>\n</div>'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/i18n/dictionary.js":[function(require,module,exports){
@@ -4403,9 +4403,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-loggedin a0-mode">\n    <form novalidate>\n      <div class="a0-body-content">\n        <p class="a0-centered a0-last-time">', escape((4,  i18n.t('signin:returnUserLabel') )), '</p>\n        <div class="a0-strategy"></div>\n        <div class="a0-emailPassword a0-hide">\n            <div class="a0-email">\n                <span class="a0-email-readonly"></span>\n                <input name="email"\n                       type="email"\n                       value=""\n                       disabled\n                       placeholder="', escape((13,  i18n.t('signin:emailPlaceholder') )), '"\n                       title="', escape((14,  i18n.t('signin:emailPlaceholder') )), '"\n                       class="a0-hide">\n            </div>\n            <div class="a0-password">\n                <label class="a0-sad-placeholder">\n                  ', escape((19,  i18n.t('signin:passwordPlaceholder') )), '\n                </label>\n                <input name="password" type="password"\n                       autofocus\n                       placeholder="', escape((23,  i18n.t('signin:passwordPlaceholder') )), '"\n                       title="', escape((24,  i18n.t('signin:passwordPlaceholder') )), '">\n            </div>\n        </div>\n        <a href="#" class="a0-centered a0-all">', escape((27,  i18n.t('signin:all') )), '</a>\n      </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-loading/index.js":[function(require,module,exports){
@@ -4533,9 +4533,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-loading a0-mode">\n  <div class="a0-spinner a0-spin-container">\n      <div class="a0-spinner-css"></div>\n      <div class="a0-spinner-bg"></div>\n  </div>\n  <div class="a0-spin-message">\n      <span>&nbsp;</span>\n  </div>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-loggedin/index.js":[function(require,module,exports){
@@ -4724,9 +4724,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-loggedin a0-mode">\n    <form novalidate>\n      <div class="a0-body-content">\n        <span class="a0-centered a0-last-time">', escape((4,  i18n.t('signin:returnUserLabel') )), '</span>\n        <div class="a0-strategy"></div>\n        <div class="a0-emailPassword a0-hide">\n          <div class="a0-email">\n              <span class="a0-email-readonly"></span>\n              <input name="email"\n                     type="email"\n                     value=""\n                     disabled\n                     placeholder="', escape((13,  i18n.t('signin:emailPlaceholder') )), '"\n                     title="', escape((14,  i18n.t('signin:emailPlaceholder') )), '"\n                     class="a0-hide">\n          </div>\n          <div class="a0-password">\n              <label class="a0-sad-placeholder">\n                ', escape((19,  i18n.t('signin:passwordPlaceholder') )), '\n              </label>\n              <input name="password" type="password"\n                     autofocus\n                     placeholder="', escape((23,  i18n.t('signin:passwordPlaceholder') )), '"\n                     title="', escape((24,  i18n.t('signin:passwordPlaceholder') )), '">\n          </div>\n          ');26; if (options.showForgot !== false) { ; buf.push('\n          <label class="a0-create-account">\n            <a href="', escape((28,  options.resetLink || 'javascript: {}' )), '"\n              class="a0-forgot-pass">', escape((29,  i18n.t('signin:forgotText') )), '</a>\n          </label>\n          ');31; } ; buf.push('\n        </div>\n        <a href="#" class="a0-centered a0-all">', escape((33,  i18n.t('signin:all') )), '</a>\n      </div>\n\n      <div class="bottom-content">\n        <div class="a0-action a0-hide">\n            <button type="submit" class="a0-primary a0-next" style="width: 100%; background-color: ', escape((38,  primaryColor )), '">', escape((38,  i18n.t('signin:action') )), '</button>\n        </div>\n      </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-loggedin/loggedin_button.ejs":[function(require,module,exports){
@@ -4741,9 +4741,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div tabindex="0"\n		data-strategy="', escape((2,  name )), '"\n		title="', escape((3,  username ? (username + ' (' + title + ')') : title )), '"\n		class="a0-zocial a0-block a0-', escape((4,  css )), ' ', escape((4,  locals.imageicon ? 'a0-image-icon' : '' )), '">\n	<span>', escape((5,  username || title )), '</span>\n</div>'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-new-reset/index.js":[function(require,module,exports){
@@ -5050,13 +5050,13 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-reset a0-mode">\n    <form id="a0-change_password" class="form-reset-password" novalidate>\n        <div class="a0-body-content">\n          <div class="a0-options">\n              <a href="javascript: {}" class="a0-centered a0-btn-small a0-back">\n                <svg width="10px" height="10px" enable-background="new 0 0 24 24" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polyline fill="none" points="12.5,21 3.5,12 12.5,3 " stroke="#000000" stroke-miterlimit="10" stroke-width="2"></polyline> <line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2" x1="22" x2="3.5" y1="12" y2="12"></line> </svg>\n              </a>\n          </div>\n          <div class="a0-collapse-reset">\n              <div class="a0-header a0-instructions">', escape((10,  i18n.t('newReset:headerText') )), '</div>\n          </div>\n          <div class="a0-emailPassword">\n              <div class="a0-inputs-wrapper">\n                <div class="a0-inputs">\n\n                    <div class="a0-email">\n                        ');17;
                           var emailPlaceholder = i18n.t('signin:emailPlaceholder')
                             + ( _isUsernameRequired() ? ' / ' + i18n.t('signin:usernamePlaceholder') : '' )
                           var inputBudicon = _isUsernameRequired() || 'username' === usernameStyle ? '1' : '5';
                         ; buf.push('\n                        <label for="a0-reset_easy_email" class="a0-sad-placeholder">\n                          ', escape((23,  emailPlaceholder )), '\n                        </label>\n                        <div class="a0-input-box">\n                          <i class="a0-icon-budicon-', escape((26,  inputBudicon )), '"></i>\n                          <input name="email"\n                               id="a0-reset_easy_email"\n                               type="email"\n                               value=""\n                               placeholder="', escape((31,  emailPlaceholder )), '"\n                               title="', escape((32,  emailPlaceholder )), '">\n                        </div>\n                    </div>\n                </div>\n              </div>\n          </div>\n        </div>\n\n        <div class="bottom-content">\n          ');41; if (i18n.t('newReset:footerText') && i18n.t('newReset:footerText').length) { ; buf.push('\n          <div class="a0-reset-footer">\n              <small>\n                  ', (44,  i18n.t('newReset:footerText') ), '\n              </small>\n          </div>\n          ');47; } ; buf.push('\n          <div class="a0-action">\n              <button type="submit" class="a0-primary a0-next" style="width: 100%; background-color: ', escape((49,  primaryColor )), '">', escape((49,  i18n.t('newReset:action') )), '</button>\n          </div>\n        </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-reset/index.js":[function(require,module,exports){
@@ -5405,13 +5405,13 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-reset a0-mode">\n    <form id="a0-change_password" class="form-reset-password" novalidate>\n        <div class="a0-body-content">\n          <div class="a0-options">\n              <a href="javascript: {}" class="a0-centered a0-btn-small a0-back">\n                <svg width="10px" height="10px" enable-background="new 0 0 24 24" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <polyline fill="none" points="12.5,21 3.5,12 12.5,3 " stroke="#000000" stroke-miterlimit="10" stroke-width="2"></polyline> <line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2" x1="22" x2="3.5" y1="12" y2="12"></line> </svg>\n              </a>\n          </div>\n          <div class="a0-collapse-reset">\n              <div class="a0-header a0-instructions">', escape((10,  i18n.t('reset:headerText') )), '</div>\n          </div>\n          <div class="a0-emailPassword">\n              <div class="a0-inputs-wrapper">\n                <div class="a0-inputs">\n\n                    <div class="a0-email">\n                        ');17;
                           var emailPlaceholder = i18n.t('signin:emailPlaceholder')
                             + ( _isUsernameRequired() ? ' / ' + i18n.t('signin:usernamePlaceholder') : '' )
                           var inputBudicon = _isUsernameRequired() || 'username' === usernameStyle ? '1' : '5';
                         ; buf.push('\n                        <label for="a0-reset_easy_email" class="a0-sad-placeholder">\n                          ', escape((23,  emailPlaceholder )), '\n                        </label>\n                        <div class="a0-input-box">\n                          <i class="a0-icon-budicon-', escape((26,  inputBudicon )), '"></i>\n                          <input name="email"\n                               id="a0-reset_easy_email"\n                               type="email"\n                               value=""\n                               placeholder="', escape((31,  emailPlaceholder )), '"\n                               title="', escape((32,  emailPlaceholder )), '">\n                        </div>\n                    </div>\n                    <div class="a0-password">\n                        <label for="a0-reset_easy_password" class="a0-sad-placeholder">\n                          ', escape((37,  i18n.t('reset:passwordPlaceholder') )), '\n                        </label>\n                        <div class="a0-input-box">\n                          <i class="a0-icon-budicon"></i>\n                          <input name="password"\n                               id="a0-reset_easy_password"\n                               type="password"\n                               value=""\n                               placeholder="', escape((45,  i18n.t('reset:passwordPlaceholder') )), '"\n                               title="', escape((46,  i18n.t('reset:passwordPlaceholder') )), '">\n                        </div>\n                    </div>\n                    <div class="a0-repeatPassword">\n                        <label for="a0-reset_easy_repeat_password" class="a0-sad-placeholder">\n                          ', escape((51,  i18n.t('reset:repeatPasswordPlaceholder') )), '\n                        </label>\n                        <div class="a0-input-box">\n                          <i class="a0-icon-budicon"></i>\n                          <input name="repeat_password"\n                               id="a0-reset_easy_repeat_password"\n                               type="password" value=""\n                               placeholder="', escape((58,  i18n.t('reset:repeatPasswordPlaceholder') )), '"\n                               title="', escape((59,  i18n.t('reset:repeatPasswordPlaceholder') )), '">\n                        </div>\n                    </div>\n\n                </div>\n                <div class="a0-password_policy"></div>\n              </div>\n          </div>\n        </div>\n\n        <div class="bottom-content">\n          ');70; if (i18n.t('reset:footerText') && i18n.t('reset:footerText').length) { ; buf.push('\n          <div class="a0-reset-footer">\n              <small>\n                  ', (73,  i18n.t('reset:footerText') ), '\n              </small>\n          </div>\n          ');76; } ; buf.push('\n          <div class="a0-action">\n              <button type="submit" class="a0-primary a0-next" style="width: 100%; background-color: ', escape((78,  primaryColor )), '">', escape((78,  i18n.t('reset:action') )), '</button>\n          </div>\n        </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-signin/index.js":[function(require,module,exports){
@@ -5975,9 +5975,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-create-account a0-buttons-actions">\n  ');2; if (locals.showCancel) { ; buf.push('\n  <a href="', escape((3,  locals.cancelLink || 'javascript: {}' )), '"\n    class="a0-cancel  a0-btn-small">', escape((4,  i18n.t('signin:cancelAction') )), '</a>\n  ');5; } ; buf.push('\n  ');6; if (showSignupAction) { ; buf.push('\n  <a href="', escape((7,  locals.signupLink || 'javascript: {}' )), '"\n    class="a0-sign-up a0-switch a0-clearfix">\n    <span class="a0-active">\n      ', escape((10,  i18n.t('signin:signinText') )), '\n    </span>\n    <span>\n      ', escape((13,  i18n.t('signin:signupText') )), '\n    </span>\n  </a>\n  ');16; } ; buf.push('\n  ');17; if (showSignupAction && showResetAction) { ; buf.push('\n  <span class="a0-divider"></span>\n  ');19; } ; buf.push('\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-signin/signin.ejs":[function(require,module,exports){
@@ -5992,13 +5992,13 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-notloggedin a0-mode">\n    <form novalidate>\n        <div class="a0-sso-notice-container a0-hide">\n            <i class="a0-icon-budicon"></i>\n            <span class="a0-sso-notice">Single Sign-on enabled</span>\n        </div>\n        <div class="a0-body-content">\n            <div class="a0-db-actions"></div>\n            <div class="a0-collapse-social">\n                <div class="a0-iconlist a0-hide"><p class="a0-hide">', escape((10,  i18n.t('signin:or') )), '</p></div>\n                <div class="a0-separator a0-hide">', escape((11,  i18n.t('signin:separatorText') )), '</div>\n            </div>\n            <div class="a0-corporate-credentials a0-hide">Please enter your <strong>corporate</strong> credentials at <span\n                        class="a0-domain"></span>.\n            </div>\n            <div class="a0-emailPassword">\n                <div class="a0-inputs">\n\n                    <div class="a0-email">\n                        ');20;
                         var emailPlaceholder = i18n.t('signin:emailPlaceholder')
                                 + ( _isUsernameRequired() ? ' / ' + i18n.t('signin:usernamePlaceholder') : '' )
                         var inputBudicon = _isUsernameRequired() || 'username' === usernameStyle ? '1' : '5';
                         ; buf.push('\n                        <label for="a0-signin_easy_email" class="a0-sad-placeholder">\n                            ', escape((26,  emailPlaceholder )), '\n                        </label>\n\n                        <div class="a0-input-box">\n                            <i class="a0-icon-budicon-', escape((30,  inputBudicon )), '"></i>\n\n                            <input name="email"\n                                   id="a0-signin_easy_email"\n                                   type="email"\n                                   placeholder="', escape((35,  emailPlaceholder )), '"\n                                   title="', escape((36,  emailPlaceholder )), '">\n                        </div>\n                    </div>\n\n                    <div class="a0-password a0-hide">\n                        <label for="a0-signin_easy_password" class="a0-sad-placeholder">\n                            ', escape((42,  i18n.t('signin:passwordPlaceholder') )), '\n                        </label>\n\n                        <div class="a0-input-box">\n                            <i class="a0-icon-budicon"></i>\n\n                            <input name="password"\n                                   id="a0-signin_easy_password"\n                                   type="password"\n                                   placeholder="', escape((51,  i18n.t('signin:passwordPlaceholder') )), '"\n                                   title="', escape((52,  i18n.t('signin:passwordPlaceholder') )), '">\n                        </div>\n                    </div>\n\n                </div>\n                <!-- .a0-inputs -->\n            </div>\n\n            ');60; if (showResetAction) { ; buf.push('\n            <a href="', escape((61,  locals.resetLink || 'javascript: {}' )), '" class="a0-forgot-pass">\n                ', escape((62,  i18n.t('signin:forgotText') )), '\n            </a>\n            ');64; } ; buf.push('\n        </div>\n\n        <div class="bottom-content">\n            ');68; if (i18n.t('signin:footerText') && i18n.t('signin:footerText').length) { ; buf.push('\n            <div class="a0-signin-footer">\n                <small>\n                    ', (71,  i18n.t('signin:footerText') ), '\n                </small>\n            </div>\n            ');74; } ; buf.push('\n            <div class="a0-action">\n                <button type="submit" class="a0-primary a0-next" style="background-color: ', escape((76,  primaryColor )), '">', escape((76,  i18n.t('signin:action') )), '</button>\n            </div>\n        </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/mode-signup/index.js":[function(require,module,exports){
@@ -6274,13 +6274,13 @@ SignupPanel.prototype.submit = function() {
   // since the auth0-js client requires a popup for that, and it needs to
   // be open in the same thread as the event emitted by the user action
   // FOLLOW: https://github.com/auth0/auth0.js/blob/065c9e6cb2f950545c11bbcd8bd1d7b0004380ae/index.js#L499-L504
-  var will_popup = options.loginAfterSignup && options.popup
-    && (options.sso || options.responseType !== 'token');
+  // var will_popup = options.loginAfterSignup && options.popup
+  //   && (options.sso || options.responseType !== 'token');
 
-  if (will_popup) {
-    panel.lock_safe_popup = widget.$auth0._buildPopupWindow({});
-    widget.$auth0._current_popup = null;
-  }
+  // if (will_popup) {
+  //   panel.lock_safe_popup = widget.$auth0._buildPopupWindow({});
+  //   widget.$auth0._current_popup = null;
+  // }
 
   widget.$auth0.signup({
     connection: connection.name,
@@ -6445,9 +6445,9 @@ escape = escape || function (html){
     .replace(/"/g, '&quot;');
 };
 var buf = [];
-with (locals || {}) { (function(){ 
+with (locals || {}) { (function(){
  buf.push('<div class="a0-signup a0-mode">\n    <form novalidate>\n        <div class="a0-body-content">\n            <div class="a0-options">\n                <a href="javascript: {}" class="a0-centered a0-cancel a0-switch a0-clearfix">\n                    <span>\n                        ', escape((7,  i18n.t('signup:signinText') )), '\n                    </span>\n                    <span class="a0-active">\n                        ', escape((10,  i18n.t('signup:signupText') )), '\n                    </span>\n                </a>\n            </div>\n            <div class="a0-header">', escape((14,  i18n.t('signup:description') )), '</div>\n            <div class="a0-collapse-social-signup">\n                <div class="a0-iconlist"><p class="a0-hide">', escape((16,  i18n.t('signin:or') )), '</p></div>\n                <div class="a0-separator a0-instructions">', escape((17,  i18n.t('signin:separatorText') )), ' <span>', escape((17,  i18n.t('signup:headerText') )), '</span></div>\n            </div>\n            <div class="a0-emailPassword">\n                <div class="a0-inputs-wrapper">\n                    <div class="a0-inputs">\n                        ');22; if(_isUsernameRequired()) { ; buf.push('\n                        <div class="a0-username">\n                            <label for="a0-signup_easy_username" class="a0-sad-placeholder">\n                                ', escape((25,  i18n.t('signup:usernamePlaceholder') )), '\n                            </label>\n\n                            <div class="a0-input-box">\n                                <i class="a0-icon-budicon-1"></i>\n                                <input name="username" id="a0-signup_easy_username"\n                                       type="text" value=""\n                                       placeholder="', escape((32,  i18n.t('signup:usernamePlaceholder') )), '"\n                                       title="', escape((33,  i18n.t('signup:usernamePlaceholder') )), '">\n                            </div>\n                        </div>\n                        ');36; } ; buf.push('\n                        <div class="a0-email">\n                            <label for="a0-signup_easy_email" class="a0-sad-placeholder">\n                                ', escape((39,  i18n.t('signup:emailPlaceholder') )), '\n                            </label>\n\n                            <div class="a0-input-box">\n                                <i class="a0-icon-budicon-5"></i>\n                                <input name="email" id="a0-signup_easy_email"\n                                       type="email" value="', escape((45,  typeof initialEmail === 'string' ? initialEmail : '' )), '"\n                                       placeholder="', escape((46,  i18n.t('signup:emailPlaceholder') )), '"\n                                       title="', escape((47,  i18n.t('signup:emailPlaceholder') )), '">\n                            </div>\n                        </div>\n                        <div class="a0-password">\n                            <label for="a0-signup_easy_password" class="a0-sad-placeholder">\n                                ', escape((52,  i18n.t('signup:passwordPlaceholder') )), '\n                            </label>\n\n                            <div class="a0-input-box">\n                                <i class="a0-icon-budicon"></i>\n                                <input name="password" id="a0-signup_easy_password"\n                                       type="password" value=""\n                                       placeholder="', escape((59,  i18n.t('signup:passwordPlaceholder') )), '"\n                                       title="', escape((60,  i18n.t('signup:passwordPlaceholder') )), '">\n\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class="a0-password_policy"></div>\n                </div>\n            </div>\n        </div>\n        <div class="bottom-content">\n            ');71; if (i18n.t('signup:footerText') && i18n.t('signup:footerText').length) { ; buf.push('\n            <div class="a0-signup-footer">\n                <small>\n                    ', (74,  i18n.t('signup:footerText') ), '\n                </small>\n            </div>\n            ');77; } ; buf.push('\n            <div class="a0-action">\n                <button type="submit" class="a0-primary a0-next" style="background-color: ', escape((79,  primaryColor )), '">', escape((79,  i18n.t('signup:action') )), '</button>\n            </div>\n        </div>\n    </form>\n</div>\n'); })();
-} 
+}
 return buf.join('');
 })
 },{}],"/Users/hernan/Projects/Auth0/Lock/lib/object-create/index.js":[function(require,module,exports){
@@ -7144,11 +7144,11 @@ PasswordStrength.prototype.bindAll = function () {
 
   // TODO Debounce?
   pwd.a0_on('input', function () {
-    showPasswordErrors(); 
+    showPasswordErrors();
   });
 
   pwd.a0_on('focus', function() {
-    showPasswordErrors(); 
+    showPasswordErrors();
   });
 
   panel.a0_on('touchstart', function (e) {
@@ -11130,7 +11130,7 @@ function decode(str) {
 
     function timedOut() {
       self._timedOut = true
-      self.request.abort()      
+      self.request.abort()
     }
 
     function error(resp, msg, t) {
@@ -12624,7 +12624,7 @@ module.exports = { str: "6.8.4" };
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
- * 
+ *
  * Based on
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
  * Digest Algorithm, as defined in RFC 1321.
@@ -17454,7 +17454,7 @@ module.exports = function (policyName) {
   var policy = policiesByName[policyName] || policiesByName.none;
 
   return {
-    /** 
+    /**
      * Checks that a password meets this policy
      *
      * @method check
@@ -17470,7 +17470,7 @@ module.exports = function (policyName) {
     /**
      * @method assert
      * Asserts that a passord meets this policy else throws an exception.
-     
+
      * @param {String} password
      */
     assert: function (password) {
@@ -21926,7 +21926,7 @@ exports.right = function(str){
     return result.value;
   };
 
-  // Shuffle an array, using the modern version of the 
+  // Shuffle an array, using the modern version of the
   // [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
   _.shuffle = function(obj) {
     var rand;
